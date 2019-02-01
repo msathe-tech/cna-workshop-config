@@ -5,6 +5,9 @@ management:
     web:
       exposure:
         include: "*"
+  cloudfoundry:
+    enabled: true
+    skip-ssl-validation: true
 
 
 spring:
